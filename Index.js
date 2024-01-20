@@ -1,6 +1,6 @@
 const express = require("express")
 const mongoose = require("mongoose")
-const { register, login, findUser } = require("./src/controllers/users")
+const { register, login } = require("./src/controllers/users")
 const server = express()
 const cors = require("cors")
 const { validateForm, IsValidated} = require('./src/Middleware/Index')
